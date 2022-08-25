@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+#container_cabecalho {
+  height: 103px;
+  background-color: #be89cb;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.links_portifolio {
+  color: whitesmoke;
+  font-size: 30px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+#container_apresentacao {
+  background-color: #edeaea;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#imagem {
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+#nome_pessoal {
+  font-size: 40px;
+  color: #ff4dbc;
+  justify-content: center;
+  display: flex;
+}
+#profissao {
+  font-size: 30px;
+  color: #a09c9c;
+  justify-content: center;
+  display: flex;
+  margin-top: 3px;
+}
+#descricao {
+  font-size: 20px;
+  width: 500px;
+  text-indent: 50px;
+  letter-spacing: 2px;
+  text-align: justify;
+  margin-top: 30px;
+  padding-bottom: 100px;
+}
+
+footer {
+  background-color: #be89cb;
+  height: 103px;
+}
+.email {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+  padding-left: 15px;
+}
+
+#contato {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  top: 30px;
+}
+
+#container_formacao {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.titulo_formacao {
+  font-size: 25px;
+  color: #a09c9c;
+  font-weight: bold;
+}
+
+.sessao > p {
+  font-size: 20px;
+  width: 500px;
+  margin-top: 9px;
+}
+
+.formacao {
+  display: flex;
+  width: 70%;
+  justify-content: flex-start;
+  color: #ff4dbc;
+  font-size: 25px;
+}
+
+.links {
+  color: #ff4dbc;
+  font-size: 18px;
+}
+
+.sessao {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+#container_projetos {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+
+  background-color: #edeaea;
+}
+.sessao2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.sessao2 > p {
+  font-size: 20px;
+  width: 500px;
+  margin-top: 9px;
+}
+.formacao2 {
+  display: flex;
+  width: 70%;
+  justify-content: flex-start;
+  color: #ff4dbc;
+  font-size: 35px;
+  padding-right: 15px;
+}
+
+#container_cabecalho > a:hover {
+  background-color: #eaabfa;
+  border-radius: 50px;
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.13);
+}
