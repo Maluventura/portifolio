@@ -7,32 +7,40 @@ body {
   background-color: #e5e5e5;
 }
 #container_cabecalho {
-  height: 103px;
-  background-color: #be89cb;
+  height: 100px;
+  width: 100%;
+  background-color: #ce46f0f6;
   display: flex;
+  justify-content: space-around;
   justify-content: flex-end;
   align-items: center;
 }
-.links_portifolio {
+.itens {
+  margin: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.links_portifolio,
+.itens {
   color: whitesmoke;
   font-size: 30px;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  padding-right: 100px;
-  padding-left: 100px;
 }
 #container_apresentacao {
   background-color: #edeaea;
-  width: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 #imagem {
   margin-bottom: 50px;
+  margin-top: 50px;
   padding-top: 50px;
 }
 #nome_pessoal {
@@ -50,7 +58,8 @@ body {
 }
 #descricao {
   font-size: 20px;
-  width: 500px;
+  flex-wrap: wrap;
+  width: 800px;
   text-indent: 50px;
   letter-spacing: 2px;
   text-align: justify;
@@ -58,10 +67,6 @@ body {
   padding-bottom: 100px;
 }
 
-footer {
-  background-color: #be89cb;
-  height: 103px;
-}
 .email {
   color: white;
   font-size: 25px;
@@ -92,6 +97,10 @@ footer {
   font-size: 25px;
   color: #a09c9c;
   font-weight: bold;
+  color: #591969;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.13);
+  margin-bottom: 10px;
 }
 
 .sessao > p {
@@ -152,8 +161,43 @@ footer {
   padding-right: 15px;
 }
 
-#container_cabecalho > a:hover {
-  background-color: #eaabfa;
-  border-radius: 50px;
-  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.13);
+.itens a:hover {
+  color: #591969;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.13);
+}
+
+.imagem {
+  width: 200px;
+  height: 200px;
+}
+
+.rodape_img {
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  background-color: #ce46f0f6;
+  height: 150px;
+}
+
+#contato {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+.links2 {
+  font-size: 22px;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  left: 30px;
+}
+
+.final a:hover {
+  color: #591969;
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.13);
 }
